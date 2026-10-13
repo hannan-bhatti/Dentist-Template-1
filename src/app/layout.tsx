@@ -20,15 +20,17 @@ export default function RootLayout({
       <body>
         {/* Top Announcement Bar */}
         <div className="top-banner">
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <Sparkles size={14} color="#c5a059" />
-            <span><strong>Accepting Private Patients:</strong> Priority Multispecialty Consultations Across Karachi &amp; Lahore</span>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
-            <span>Concierge Desk: <strong>+92 (21) 3587-9920</strong></span>
-            <a href="https://wa.me/923008899920" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
-              <MessageCircle size={14} color="#22c55e" /> WhatsApp Care Desk
-            </a>
+          <div className="container top-banner-inner">
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <Sparkles size={14} color="#c5a059" />
+              <span><strong>Accepting New Patients:</strong> Appointments Available Across Karachi &amp; Lahore</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
+              <span>Concierge Desk: <strong>+92 (21) 3587-9920</strong></span>
+              <a href="https://wa.me/923008899920" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
+                <MessageCircle size={14} color="#22c55e" /> WhatsApp Care Desk
+              </a>
+            </div>
           </div>
         </div>
 
@@ -41,11 +43,11 @@ export default function RootLayout({
 
             <nav className="nav-links">
               <Link href="/#specialties" className="nav-link">Specialties</Link>
-              <Link href="/#triage" className="nav-link">Symptom Triage</Link>
-              <Link href="/#packages" className="nav-link">Executive Packages</Link>
-              <Link href="/#doctors" className="nav-link">Medical Board</Link>
-              <Link href="/services" className="nav-link">Clinical Menu</Link>
-              <Link href="/#reviews" className="nav-link">Patient Stories</Link>
+              <Link href="/#triage" className="nav-link">Symptom Check</Link>
+              <Link href="/#packages" className="nav-link">Health Packages</Link>
+              <Link href="/#doctors" className="nav-link">Our Doctors</Link>
+              <Link href="/services" className="nav-link">All Services</Link>
+              <Link href="/#reviews" className="nav-link">Reviews</Link>
             </nav>
 
             <div className="nav-actions">
@@ -55,7 +57,7 @@ export default function RootLayout({
               </a>
               <Link href="/booking" className="btn-primary" style={{ padding: '0.65rem 1.45rem', fontSize: '0.875rem' }}>
                 <Calendar size={15} style={{ flexShrink: 0 }} />
-                <span>Book Priority Window</span>
+                <span>Book Appointment</span>
               </Link>
             </div>
 

@@ -116,11 +116,11 @@ export function SymptomTriageNavigator() {
       <div className={styles.triageHeader}>
         <span className="section-tag">
           <ShieldCheck size={14} style={{ display: 'inline', marginRight: 4 }} />
-          Clinical Navigation Tool
+          Helpful Guide
         </span>
-        <h2 className={styles.triageTitle}>Intelligent Specialist Triage Navigator</h2>
+        <h2 className={styles.triageTitle}>Find the Right Doctor for Your Needs</h2>
         <p className={styles.triageSub}>
-          Select your primary symptom or health goal below. Our triage engine will pinpoint the recommended clinical department, lead specialist, and next diagnostic step.
+          Select a symptom or health goal below. We will show you which doctor can help, what to expect, and how to book your visit.
         </p>
       </div>
 

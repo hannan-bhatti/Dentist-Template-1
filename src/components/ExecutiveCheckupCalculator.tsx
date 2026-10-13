@@ -64,11 +64,11 @@ export function ExecutiveCheckupCalculator() {
       <div className={styles.calcHeader}>
         <span className="section-tag">
           <Calculator size={14} style={{ display: 'inline', marginRight: 4 }} />
-          Bespoke Health Investment
+          Health Packages
         </span>
-        <h2 className="section-title">Executive Preventive Battery Calculator</h2>
+        <h2 className="section-title">Health Check Package Calculator</h2>
         <p className="section-subtitle">
-          Transparent, zero-surprise healthcare planning. Customize your comprehensive multi-specialty screening battery with 0% interest 6-month installment options.
+          Clear, transparent pricing. Choose a health check package below, customize with any extra tests you need, and view your estimate instantly.
         </p>
       </div>
 

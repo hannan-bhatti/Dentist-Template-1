@@ -1,134 +1,134 @@
 export const clinicConfig = {
   name: "Aura Health Sanctuary",
-  tagline: "Executive Multispecialty Lounge & Medical Sanctuary",
+  tagline: "Modern Multispecialty Medical Center",
   phone: "+92 (21) 3587-9920",
   emergencyPhone: "+92 (21) 3587-9911",
   whatsappNumber: "+923008899920",
-  address: "Sanctuary Tower, Executive Enclave, Marine Drive, Clifton Block 4, Karachi",
+  address: "Marine Promenade, Clifton Block 4, Karachi",
   secondaryBranch: "M.M. Alam Road, Gulberg III, Lahore",
-  hours: "Mon – Sat: 8:00 AM – 9:00 PM | Priority ER & Virtual Desk: 24/7",
+  hours: "Mon – Sat: 8:00 AM – 9:00 PM | Emergency & Online Desk: 24/7",
   calComLink: "https://cal.com/aura-health/consultation",
   googleRating: "4.96",
   reviewCount: "1,450+"
 };
 
 export const heroData = {
-  headline: "Multispecialty Healthcare Elevated into a Soothing Art.",
-  subheadline: "Experience world-class integrated medicine across Cardiology, Dental Artistry, Gynecology, Physiotherapy, Advanced Labs, and Family Medicine in an unhurried, private sanctuary.",
-  badge: "✨ Accepting Private Patients • Executive Priority Same-Day Consultations",
-  primaryCtaText: "Reserve Sanctuary Consultation",
-  secondaryCtaText: "Explore Medical Specialties",
-  ratingText: "4.96/5 Star Rating from 1,450+ Verified Patients Across Pakistan & Overseas"
+  headline: "Compassionate Healthcare Designed Around Your Peace of Mind.",
+  subheadline: "Enjoy unhurried, comfortable appointments across heart care, gentle dental, women's wellness, physical therapy, fast lab tests, and family medicine in a welcoming, private clinic.",
+  badge: "✨ Accepting New Patients • Same-Day Appointments Available",
+  primaryCtaText: "Book an Appointment",
+  secondaryCtaText: "Explore Our Services",
+  ratingText: "4.96/5 Rating from 1,450+ Happy Patients Across Pakistan"
 };
 
 export const specialtiesData = [
   {
     id: "cardiology",
-    title: "Cardiology & Vascular Medicine",
-    shortTitle: "Cardiology",
+    title: "Heart Care & Checkups",
+    shortTitle: "Heart Care",
     iconName: "HeartPulse",
-    tagline: "Preventive Cardiovascular Health & Precision Heart Mapping",
+    tagline: "Clear Heart Health Tests & Preventive Guidance",
     leadDoctor: "Prof. Dr. Mansoor Tariq, FRCP (London), FCPS",
-    description: "From 3D echocardiography and continuous Holter rhythm telemetry to preventive coronary calcium scoring, our heart lounge combines British clinical protocols with unhurried cardiac consultations.",
+    description: "Detailed heart health screenings, gentle ultrasound scans of the heart, blood pressure management, and personalized lifestyle plans to keep your heart strong.",
     keyProcedures: [
-      "Color Doppler 3D Echocardiography",
-      "24-Hour Digital Holter Telemetry",
-      "Preventive Atherosclerosis Screening",
-      "Executive Hypertension Optimization"
+      "Heart Ultrasound (Echocardiogram)",
+      "24-Hour Heart Rhythm Monitoring",
+      "Blood Pressure & Cholesterol Checks",
+      "Preventive Heart Care Consultations"
     ],
-    duration: "45-60 min comprehensive workup",
+    duration: "45-60 min comprehensive visit",
     priceFrom: "Rs. 9,500",
-    badge: "Heart Center of Excellence"
+    badge: "Heart Specialist Center"
   },
   {
     id: "dental",
-    title: "Aesthetic & Restorative Dentistry",
-    shortTitle: "Dental Lounge",
+    title: "Gentle Dental & Smile Care",
+    shortTitle: "Dental Care",
     iconName: "Sparkles",
-    tagline: "Virtually Painless Digital Smile Architecture & Swiss Veneers",
+    tagline: "Comfortable Teeth Cleaning, Implants & Whitening",
     leadDoctor: "Dr. Dania Tariq, BDS, MSc (King's College London)",
-    description: "Equipped with German 3D intraoral optical scanning, computer-regulated Wand™ micro-anesthesia, and Swiss ceramic artistry for dental transformations with zero anxiety.",
+    description: "Gentle teeth cleaning, modern pain-free dental implants, natural-looking veneers, and teeth whitening in a relaxing, anxiety-free setting.",
     keyProcedures: [
-      "Bespoke Swiss Porcelain Veneers",
-      "Guided 3D Titanium Dental Implants",
-      "Enlighten In-Studio Laser Whitening",
-      "Ultrasonic Biofilm Airflow Hygiene"
+      "Natural-Looking Porcelain Veneers",
+      "Comfortable Dental Implants",
+      "In-Studio Teeth Whitening",
+      "Gentle Cleaning & Gum Care"
     ],
-    duration: "45-90 min session",
+    duration: "45-60 min session",
     priceFrom: "Rs. 8,500",
-    badge: "Painless Anesthesia Protocol"
+    badge: "Pain-Free Guarantee"
   },
   {
     id: "gynea",
-    title: "Obstetrics & Women's Health",
-    shortTitle: "Gynecology",
+    title: "Women's Health & Maternity",
+    shortTitle: "Women's Health",
     iconName: "Flower2",
-    tagline: "Empowering Compassionate Care for Every Stage of Womanhood",
+    tagline: "Caring & Confidential Support for Every Woman",
     leadDoctor: "Dr. Syeda Zill-e-Huma, MBBS, MRCOG (UK), FCPS",
-    description: "Private, comforting gynecological consultations covering prenatal fetal monitoring, high-definition 4D anomaly scanning, hormonal endocrinology, and comprehensive well-woman longevity screens.",
+    description: "Private consultations for expecting mothers, clear 4D baby ultrasounds, hormonal health, and routine female wellness checkups with experienced doctors.",
     keyProcedures: [
-      "4D HD Anomaly Ultrasound & Fetal Scan",
-      "PCOS & Hormonal Endocrine Optimization",
-      "Prenatal Concierge Care & Delivery Advisory",
-      "Comprehensive Well-Woman Cervical Screening"
+      "Clear 4D Baby Ultrasound Scans",
+      "Pregnancy & Maternity Care",
+      "Hormone & Period Health Guidance",
+      "Routine Women's Wellness Screenings"
     ],
     duration: "45 min private consultation",
     priceFrom: "Rs. 7,500",
-    badge: "100% Private Female Suite"
+    badge: "100% Female Doctor Team"
   },
   {
     id: "physiotherapy",
-    title: "Physiotherapy & Spine Rehabilitation",
+    title: "Physiotherapy & Pain Relief",
     shortTitle: "Physiotherapy",
     iconName: "Activity",
-    tagline: "Evidence-Based Musculoskeletal Recovery & Posture Science",
-    leadDoctor: "Dr. Hammad Sher, DPT, MS OMPT (Australia)",
-    description: "Combining dry needling, computerized spinal decompression, laser biostimulation, and tailored movement re-education to eliminate chronic spinal, sports, and joint pain.",
+    tagline: "Relief for Back, Neck & Joint Pain Without Surgery",
+    leadDoctor: "Dr. Hammad Sher, DPT, MS (Australia)",
+    description: "Gentle hands-on therapy, guided movement exercises, and modern equipment to help relieve nagging back pain, neck stiffness, and joint aches.",
     keyProcedures: [
-      "Targeted Spinal Decompression Therapy",
-      "Sports Injury & ACL Rehabilitation",
-      "Trigger Point Dry Needling & Shockwave",
-      "Ergonomic Posture Realignment"
+      "Back & Neck Pain Relief",
+      "Sports Injury & Joint Recovery",
+      "Targeted Muscle Therapy",
+      "Posture & Movement Training"
     ],
-    duration: "60 min clinical therapy",
+    duration: "60 min therapy session",
     priceFrom: "Rs. 6,000",
-    badge: "Private Rehab Gymnasium"
+    badge: "Pain Relief Center"
   },
   {
     id: "labs",
-    title: "Diagnostic Labs & 3D Imaging",
-    shortTitle: "Diagnostic Labs",
+    title: "Diagnostic Lab Tests",
+    shortTitle: "Lab Tests",
     iconName: "Microscope",
-    tagline: "Automated Roche Diagnostics with Rapid 4-Hour Turnaround",
+    tagline: "Accurate Blood Tests with Fast Online Reports",
     leadDoctor: "Dr. Shireen Qureshi, MBBS, FRCPath (UK)",
-    description: "Hospital-grade automated molecular pathology, cardiac biomarker panels, metabolic profiles, and sterile home sample collection by certified phlebotomists.",
+    description: "Hygienic blood testing at our clinic or right at your doorstep, with digital reports sent straight to your phone in 2 to 4 hours.",
     keyProcedures: [
-      "Executive Longevity Blood Panel (72 Parameters)",
-      "High-Sensitivity Cardiac Troponin & CRP",
-      "Comprehensive Thyroid & Hormone Battery",
-      "Doorstep Sterile Home Phlebotomy Dispatch"
+      "Full Body Health Blood Check (72 Tests)",
+      "Cholesterol & Blood Sugar Panels",
+      "Thyroid & Vitamin Health Checks",
+      "Free Home Sample Collection"
     ],
-    duration: "Results in 2–4 hours digital portal",
+    duration: "Results in 2–4 hours",
     priceFrom: "Rs. 4,500",
-    badge: "ISO 15189 Accredited"
+    badge: "Certified Testing Lab"
   },
   {
     id: "family-phy",
-    title: "Family Medicine & Preventive Health",
-    shortTitle: "Family Physician",
+    title: "Family Doctor & Everyday Care",
+    shortTitle: "Family Doctor",
     iconName: "Stethoscope",
-    tagline: "Holistic Primary Care for Lifelong Multi-Generational Wellness",
+    tagline: "Everyday Illnesses & Long-Term Health Support",
     leadDoctor: "Dr. Kamran Baig, MBBS, MRCGP (UK), Dip. Diab",
-    description: "Dedicated primary physicians who understand your medical history, managing chronic conditions (diabetes, metabolic health, gut wellness) and acute seasonal ailments with compassionate continuity.",
+    description: "Friendly family physicians taking care of everyday health concerns, diabetes management, blood pressure, flu, allergies, and annual wellness visits.",
     keyProcedures: [
-      "Comprehensive Annual Executive Physical",
-      "Metabolic Health & Diabetes Reversal",
-      "Pediatric & Adult Vaccination Schedules",
-      "Rapid Same-Day Urgent Care Consultations"
+      "Complete Annual Health Checkup",
+      "Practical Diabetes Care & Guidance",
+      "Vaccinations for Children & Adults",
+      "Same-Day Doctor Appointments"
     ],
     duration: "30-45 min consultation",
     priceFrom: "Rs. 5,500",
-    badge: "Same-Day Priority Access"
+    badge: "Same-Day Walk-Ins"
   }
 ];
 
@@ -136,51 +136,51 @@ export const doctorsData = [
   {
     id: "dr-mansoor",
     name: "Prof. Dr. Mansoor Tariq",
-    specialty: "Consultant Cardiologist & Heart Specialist",
+    specialty: "Heart Care Specialist",
     department: "cardiology",
-    credentials: "FRCP (London) • FCPS (Cardiology) • Member British Cardiovascular Society",
-    experience: "24+ Years Clinical Leadership",
-    bio: "Former Chief of Cardiology at leading teaching hospitals, Prof. Mansoor pioneers non-invasive cardiac imaging, preventive cardiovascular medicine, and personalized lipid optimization.",
+    credentials: "FRCP (London) • FCPS (Cardiology) • British Heart Society",
+    experience: "24+ Years Experience",
+    bio: "With over 24 years of clinical experience, Prof. Mansoor provides thorough, unhurried heart checkups and helps patients manage blood pressure and cholesterol effectively.",
     image: "/images/doctor-mansoor.jpg"
   },
   {
     id: "dr-dania",
     name: "Dr. Dania Tariq",
-    specialty: "Lead Cosmetic & Restorative Dental Surgeon",
+    specialty: "Cosmetic & Dental Surgeon",
     department: "dental",
-    credentials: "BDS • MSc Aesthetic Dentistry (King's College London) • AACD Member",
-    experience: "12+ Years Artistry & Restorations",
-    bio: "Specializing in minimal-prep Swiss porcelain veneers and zero-anxiety digital smile design, Dr. Dania pairs British clinical mastery with gentle patient reassurance.",
+    credentials: "BDS • MSc Aesthetic Dentistry (King's College London)",
+    experience: "12+ Years Experience",
+    bio: "Specializing in gentle dental care and natural-looking smile makeovers, Dr. Dania combines UK clinical training with a friendly, painless approach.",
     image: "/images/doctor-dania.jpg"
   },
   {
     id: "dr-zill",
     name: "Dr. Syeda Zill-e-Huma",
-    specialty: "Consultant Obstetrician & Gynecologist",
+    specialty: "Gynecologist & Maternity Specialist",
     department: "gynea",
-    credentials: "MBBS • MRCOG (Royal College London) • FCPS (Obs & Gynae)",
-    experience: "18+ Years Women's Wellness",
-    bio: "Renowned for compassionate, patient-centered prenatal management, advanced gynecological ultrasound, and evidence-based hormone therapy for women across all stages of life.",
+    credentials: "MBBS • MRCOG (London) • FCPS",
+    experience: "18+ Years Experience",
+    bio: "Known for compassionate and respectful care, Dr. Zill-e-Huma guides mothers through safe pregnancies and provides expert guidance for women of all ages.",
     image: "/images/doctor-zill.jpg"
   },
   {
     id: "dr-hammad",
     name: "Dr. Hammad Sher",
-    specialty: "Head of Physical Therapy & Musculoskeletal Rehab",
+    specialty: "Senior Physiotherapist & Spine Specialist",
     department: "physiotherapy",
-    credentials: "DPT • MS Orthopedic Manual Therapy (Australia) • Certified Dry Needling",
-    experience: "10+ Years Elite Rehabilitation",
-    bio: "Pioneering posture science, non-surgical disc recovery, and functional sports rehabilitation, Dr. Hammad has treated national athletes and corporate executives with lasting results.",
+    credentials: "DPT • MS Physical Therapy (Australia)",
+    experience: "10+ Years Experience",
+    bio: "Dr. Hammad helps patients overcome back pain, joint stiffness, and sports injuries using safe, non-surgical physical therapy and gentle rehabilitation.",
     image: "/images/doctor-hammad.jpg"
   },
   {
     id: "dr-kamran",
     name: "Dr. Kamran Baig",
-    specialty: "Principal Family Physician & Preventive Medicine Lead",
+    specialty: "Family Doctor & Primary Care Physician",
     department: "family-phy",
-    credentials: "MBBS • MRCGP (UK) • Postgraduate Diploma in Diabetes (UK)",
-    experience: "15+ Years Primary Healthcare",
-    bio: "A British-trained family physician dedicated to proactive wellness, metabolic disease reversal, and long-term health stewardship for the entire household.",
+    credentials: "MBBS • MRCGP (UK) • Diabetes Care Diploma (UK)",
+    experience: "15+ Years Experience",
+    bio: "A UK-trained family doctor dedicated to everyday healthcare, diabetes prevention, and long-term vitality for every member of the family.",
     image: "/images/doctor-kamran.jpg"
   }
 ];
@@ -188,46 +188,45 @@ export const doctorsData = [
 export const executivePackages = [
   {
     id: "executive-cardio",
-    name: "Executive Cardio-Vascular Shield",
-    target: "Executives & Individuals with Family History of Heart Disease",
+    name: "Complete Heart Health Check",
+    target: "Anyone wanting a detailed review of their heart health",
     badge: "Most Popular",
     price: 38000,
     testsIncluded: 18,
     highlights: [
-      "Color Doppler 3D Echocardiogram",
-      "Resting 12-Lead Digital ECG",
-      "Full Cardiac Biomarkers (High-Sensitivity CRP, Troponin)",
-      "Advanced Lipid Subfractions & Apolipoproteins",
-      "Detailed 45-Min Review with Prof. Dr. Mansoor"
+      "Heart Ultrasound (Echocardiogram)",
+      "Digital ECG Heart Test",
+      "Cholesterol & Blood Sugar Tests",
+      "Detailed 45-Min Doctor Consultation"
     ]
   },
   {
     id: "executive-longevity",
-    name: "Total Sanctuary Longevity Battery",
-    target: "Comprehensive Head-to-Toe Multi-Specialty Screening",
-    badge: "Flagship Assessment",
+    name: "Full Body Master Health Check",
+    target: "Complete head-to-toe health screening for adults",
+    badge: "Best Value",
     price: 65000,
     testsIncluded: 42,
     highlights: [
-      "Cardiology: Echocardiogram & ECG",
-      "Labs: Full 72-Parameter Blood & Metabolic Profile",
-      "Dental: 3D German Optical Scan & Airflow Hygiene",
-      "Physio: Spine & Joint Ergonomic Posture Analysis",
-      "Family Medicine: Comprehensive Executive Life Review"
+      "Heart: Echocardiogram & Digital ECG",
+      "Labs: Full 72-Parameter Blood Test",
+      "Dental: Complete Oral Exam & Teeth Cleaning",
+      "Physio: Back & Posture Check",
+      "Family Doctor: Detailed Lifestyle Review"
     ]
   },
   {
     id: "well-woman-luxe",
-    name: "Bespoke Well-Woman & Maternal Longevity",
-    target: "Women Seeking Proactive Hormonal, Fetal or Gynecological Care",
+    name: "Women's Complete Health Package",
+    target: "Routine female wellness, hormonal health & pregnancy care",
     badge: "Dedicated Suite",
     price: 32000,
     testsIncluded: 24,
     highlights: [
-      "High-Definition Pelvic & 4D Obstetric Ultrasound",
-      "Complete Hormonal Screen (Thyroid, Estrogen, AMH, Prolactin)",
-      "Cervical Screening & Breast Health Evaluation",
-      "Bone Mineral Density & Vitamin D/B12 Matrix",
+      "Clear 4D Ultrasound Scan",
+      "Full Hormone & Thyroid Blood Test",
+      "Routine Women's Health Screen",
+      "Vitamin D & B12 Levels",
       "Private Consultation with Dr. Syeda Zill-e-Huma"
     ]
   }
@@ -237,44 +236,44 @@ export const trustSignals = [
   {
     author: "Zainab Shahbaz",
     location: "DHA Phase 5, Karachi",
-    specialty: "Gynecology & Women's Health",
+    specialty: "Women's Health & Ultrasound",
     rating: 5,
-    reviewText: "Visiting Aura was completely unlike any clinical experience in Pakistan. Dr. Zill-e-Huma gave me 45 uninterrupted minutes in a tranquil, private suite with zero waiting room tension. The level of dignity, warmth, and precision was unforgettable.",
-    source: "Verified Google Review"
+    reviewText: "Visiting Aura was wonderfully calm. Dr. Zill-e-Huma gave me 45 uninterrupted minutes in a peaceful, private room with zero waiting. The warmth and care were exceptional.",
+    source: "Verified Patient Review"
   },
   {
     author: "Tariq Mahmood Khan",
-    location: "Executive F-7, Islamabad / Overseas UAE",
-    specialty: "Cardiology & Labs",
+    location: "Islamabad & Overseas",
+    specialty: "Heart Care & Labs",
     rating: 5,
-    reviewText: "I flew in from Dubai for my annual executive health checkup. Prof. Mansoor analyzed my 3D echocardiogram and lab results with incredible depth. The lab results arrived securely on WhatsApp within 3 hours. Phenomenal institution.",
-    source: "Verified Executive Patient"
+    reviewText: "I booked my annual health checkup here. Dr. Mansoor explained all my test results clearly and gave practical daily advice. The lab results arrived on WhatsApp in 3 hours.",
+    source: "Verified Patient Review"
   },
   {
     author: "Amina Rezvi",
     location: "Gulberg III, Lahore",
-    specialty: "Physiotherapy & Spine Rehab",
+    specialty: "Physiotherapy & Back Pain",
     rating: 5,
-    reviewText: "I had suffered from cervical spinal nerve pinch for 8 months. Three sessions with Dr. Hammad's decompression and dry needling completely restored my neck mobility without surgery. The calm atmosphere made healing effortless.",
+    reviewText: "I suffered from severe neck pain for months. Dr. Hammad's physical therapy sessions helped me recover quickly without needing surgery. I feel completely comfortable again.",
     source: "Verified Patient Review"
   }
 ];
 
 export const faqData = [
   {
-    question: "How does Aura Health Sanctuary ensure a zero-wait experience for busy executives and families?",
-    answer: "Every appointment at Aura is strictly protected with dedicated 30 to 60-minute consultation windows. You are guided directly to a private, soundproofed consultation suite upon arrival with complimentary herbal refreshments, completely eliminating crowded, stressful waiting lobbies."
+    question: "Do I have to wait in a crowded waiting room?",
+    answer: "No. Every appointment has a dedicated consultation window. You are welcomed straight into a calm, private room with zero waiting and no stress."
   },
   {
-    question: "Can I receive cross-specialty consultations (e.g., Cardiology + Labs + Dental) in a single visit?",
-    answer: "Yes. Our Multispecialty Care Coordinator can bundle multiple consultations and on-site diagnostic investigations into a unified 2-hour executive window, ensuring seamless medical collaboration between our cardiologists, physicians, and lab directors."
+    question: "Can I see multiple doctors or get lab tests done on the same visit?",
+    answer: "Yes! We can easily organize your doctor consultations and lab tests during a single visit so you save time and get everything done conveniently."
   },
   {
-    question: "Do you offer doorstep home blood sample collection and mobile ECG dispatch?",
-    answer: "Yes. Our certified phlebotomy fleet provides sterile home and office sample collection across Karachi and Lahore within 90 minutes of booking. Samples are transported in temperature-controlled cold chains directly to our automated Roche laboratory."
+    question: "Do you offer blood sample collection at home?",
+    answer: "Yes. Our lab team arrives at your home within 90 minutes anywhere across Karachi and Lahore. Your test results are delivered to your phone in 2 to 4 hours."
   },
   {
-    question: "How does the virtual patient care desk and emergency protocol work?",
-    answer: "Our patient care desk is active 24/7 on WhatsApp (+92 300 8899920) and direct priority telephone lines (+92 21 3587-9920). For acute medical queries or priority slot reservations, our senior clinical triage team responds in an average of under 3 minutes."
+    question: "How can I book an urgent appointment or get quick medical help?",
+    answer: "You can book online or message our care team directly on WhatsApp (+92 300 8899920) or phone (+92 21 3587-9920). Our team responds in under 3 minutes."
   }
 ];

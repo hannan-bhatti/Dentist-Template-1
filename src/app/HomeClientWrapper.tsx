@@ -72,8 +72,8 @@ export function HomeClientWrapper({
               </div>
 
               <h1 className={styles.heroHeadline}>
-                Multispecialty Medicine Elevated for{' '}
-                <span className={styles.heroHeadlineGradient}>Calm, Unhurried Healing.</span>
+                Compassionate Healthcare for{' '}
+                <span className={styles.heroHeadlineGradient}>Calm, Comfortable Healing.</span>
               </h1>
 
               <p className={styles.heroSubheadline}>
@@ -97,7 +97,7 @@ export function HomeClientWrapper({
                     <Star key={i} size={16} fill="#c5a059" stroke="#c5a059" />
                   ))}
                 </div>
-                <span><strong>4.96/5 Star Rating</strong> from 1,450+ Verified Patients Across Pakistan &amp; Overseas</span>
+                <span><strong>4.96/5 Star Rating</strong> from over 1,450+ Happy Patients</span>
               </div>
             </motion.div>
 
@@ -113,8 +113,8 @@ export function HomeClientWrapper({
                   <HeartPulse size={20} />
                 </div>
                 <div>
-                  <div className={styles.floatingCardTitle}>Live Cardiology Lounge Active</div>
-                  <div className={styles.floatingCardSub}>Next Open Window: 2:00 PM Today</div>
+                  <div className={styles.floatingCardTitle}>Heart Care Specialists Active</div>
+                  <div className={styles.floatingCardSub}>Next Open Appointment: Today</div>
                 </div>
               </div>
 
@@ -122,17 +122,17 @@ export function HomeClientWrapper({
                 <div className={styles.visualInner}>
                   <span className={styles.visualPill}>
                     <Sparkles size={13} />
-                    Integrated Medical Sanctuary
+                    Modern Medical Sanctuary
                   </span>
                   <h3 style={{ fontSize: '1.75rem', lineHeight: 1.3 }}>
-                    Six Centers of Clinical Excellence Under One Soothing Roof
+                    All Your Healthcare Needs in One Calming Place
                   </h3>
                   <p style={{ fontSize: '0.88rem', color: '#b5cdc6', maxWidth: 360 }}>
-                    Cardiology • Dental Artistry • Obstetrics &amp; Gynea • Spinal Physiotherapy • Diagnostic Labs • Family Medicine
+                    Heart Care • Gentle Dental • Women&apos;s Health • Physical Therapy • Fast Lab Tests • Family Doctor
                   </p>
                   <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.5rem' }}>
                     <span style={{ fontSize: '0.75rem', padding: '0.3rem 0.65rem', borderRadius: 6, background: 'rgba(255,255,255,0.1)' }}>
-                      Zero Waiting Room Policy
+                      Zero Waiting Room Stress
                     </span>
                     <span style={{ fontSize: '0.75rem', padding: '0.3rem 0.65rem', borderRadius: 6, background: 'rgba(255,255,255,0.1)' }}>
                       Private Suites
@@ -146,8 +146,8 @@ export function HomeClientWrapper({
                   <Award size={20} />
                 </div>
                 <div>
-                  <div className={styles.floatingCardTitle}>British &amp; Royal College Fellows</div>
-                  <div className={styles.floatingCardSub}>Senior Multidisciplinary Board</div>
+                  <div className={styles.floatingCardTitle}>Senior Qualified Doctors</div>
+                  <div className={styles.floatingCardSub}>Experienced &amp; caring medical team</div>
                 </div>
               </div>
             </motion.div>
@@ -166,52 +166,52 @@ export function HomeClientWrapper({
           >
             <div className={styles.bookingField}>
               <label className={styles.fieldLabel}>
-                <Sparkles size={13} /> Clinical Department
+                <Sparkles size={13} /> Medical Service
               </label>
               <select 
                 className={styles.fieldSelect}
                 value={selectedDept}
                 onChange={(e) => setSelectedDept(e.target.value)}
               >
-                <option value="cardiology">Cardiology &amp; Vascular Medicine</option>
-                <option value="dental">Aesthetic &amp; Painless Dentistry</option>
-                <option value="gynea">Obstetrics &amp; Women&apos;s Health</option>
-                <option value="physiotherapy">Physiotherapy &amp; Spine Rehab</option>
-                <option value="labs">Diagnostic Molecular Labs (Roche)</option>
-                <option value="family-phy">Family Medicine &amp; Primary Care</option>
+                <option value="cardiology">Heart Care &amp; Checkups</option>
+                <option value="dental">Gentle Dental &amp; Smile Care</option>
+                <option value="gynea">Women&apos;s Health &amp; Maternity</option>
+                <option value="physiotherapy">Physiotherapy &amp; Pain Relief</option>
+                <option value="labs">Diagnostic Lab Tests</option>
+                <option value="family-phy">Family Doctor &amp; Everyday Care</option>
               </select>
             </div>
 
             <div className={styles.bookingField}>
               <label className={styles.fieldLabel}>
-                <Award size={13} /> Consultant Specialist
+                <Award size={13} /> Doctor
               </label>
               <select 
                 className={styles.fieldSelect}
                 value={selectedDoctor}
                 onChange={(e) => setSelectedDoctor(e.target.value)}
               >
-                <option value="any">First Available Senior Consultant</option>
-                <option value="dr-mansoor">Prof. Dr. Mansoor Tariq (Cardiology)</option>
-                <option value="dr-dania">Dr. Dania Tariq (Aesthetic Dental)</option>
-                <option value="dr-zill">Dr. Syeda Zill-e-Huma (Gynecology)</option>
+                <option value="any">First Available Doctor</option>
+                <option value="dr-mansoor">Prof. Dr. Mansoor Tariq (Heart Care)</option>
+                <option value="dr-dania">Dr. Dania Tariq (Dental Care)</option>
+                <option value="dr-zill">Dr. Syeda Zill-e-Huma (Women&apos;s Health)</option>
                 <option value="dr-hammad">Dr. Hammad Sher (Physiotherapy)</option>
-                <option value="dr-kamran">Dr. Kamran Baig (Family Medicine)</option>
+                <option value="dr-kamran">Dr. Kamran Baig (Family Doctor)</option>
               </select>
             </div>
 
             <div className={styles.bookingField}>
               <label className={styles.fieldLabel}>
-                <Clock size={13} /> Preferred Window
+                <Clock size={13} /> Time of Day
               </label>
               <select 
                 className={styles.fieldSelect}
                 value={selectedWindow}
                 onChange={(e) => setSelectedWindow(e.target.value)}
               >
-                <option value="morning">Morning Executive Slot (9 AM – 1 PM)</option>
-                <option value="afternoon">Afternoon Priority Slot (1 PM – 5 PM)</option>
-                <option value="evening">Late Evening Private Slot (5 PM – 8 PM)</option>
+                <option value="morning">Morning (9:00 AM – 1:00 PM)</option>
+                <option value="afternoon">Afternoon (1:00 PM – 5:00 PM)</option>
+                <option value="evening">Evening (5:00 PM – 8:00 PM)</option>
               </select>
             </div>
 
@@ -222,7 +222,7 @@ export function HomeClientWrapper({
                 style={{ padding: '0.85rem 1.75rem', width: '100%' }}
               >
                 <Calendar size={16} />
-                <span>Check Live Calendar</span>
+                <span>Book Appointment</span>
               </Link>
             </div>
           </motion.div>
@@ -233,10 +233,10 @@ export function HomeClientWrapper({
       <section id="specialties" className="section">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Multidisciplinary Excellence</span>
-            <h2 className="section-title">Six Integrated Medical Centers</h2>
+            <span className="section-tag">Our Services</span>
+            <h2 className="section-title">Specialized Medical Care</h2>
             <p className="section-subtitle">
-              World-class clinical expertise, European diagnostic instrumentation, and private consultation suites designed to restore both body and peace of mind.
+              Expert doctors, modern equipment, and comfortable private rooms designed to help you and your family feel your best.
             </p>
           </div>
 
@@ -316,10 +316,10 @@ export function HomeClientWrapper({
       <section id="doctors" className="section">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Clinical Stewardship</span>
-            <h2 className="section-title">Senior Consultant Medical Board</h2>
+            <span className="section-tag">Our Specialists</span>
+            <h2 className="section-title">Meet Our Experienced Doctors</h2>
             <p className="section-subtitle">
-              Trained at the UK Royal Colleges, King&apos;s College London, and premier international teaching hospitals, our specialists dedicate unhurried attention to every patient.
+              Friendly, highly qualified doctors across heart health, dental care, women's wellness, physical therapy, and everyday family medicine.
             </p>
           </div>
 
@@ -355,7 +355,7 @@ export function HomeClientWrapper({
                     style={{ width: '100%', justifyContent: 'center', fontSize: '0.88rem' }}
                   >
                     <Calendar size={15} />
-                    <span>Consult with {doc.name.split(',')[0].replace('Prof. ', '')}</span>
+                    <span>Book with {doc.name.split(',')[0].replace('Prof. ', '')}</span>
                   </Link>
                 </motion.div>
               </TiltCard>
@@ -368,10 +368,10 @@ export function HomeClientWrapper({
       <section id="reviews" className="section" style={{ background: 'var(--bg-subtle)' }}>
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Verified Patient Voices</span>
-            <h2 className="section-title">Patient Testimonials &amp; Stories</h2>
+            <span className="section-tag">Patient Stories</span>
+            <h2 className="section-title">Real Reviews from Happy Patients</h2>
             <p className="section-subtitle">
-              Read authentic experiences from executives, families, and international patients who trust Aura Sanctuary for their clinical care.
+              Read authentic experiences from patients who trust our caring doctors and gentle treatments.
             </p>
           </div>
 
@@ -411,10 +411,10 @@ export function HomeClientWrapper({
       <section id="faq" className="section">
         <div className="container">
           <div className="section-header">
-            <span className="section-tag">Transparent Care</span>
+            <span className="section-tag">Help &amp; Answers</span>
             <h2 className="section-title">Frequently Asked Questions</h2>
             <p className="section-subtitle">
-              Answers regarding our private consultation windows, home phlebotomy, and insurance coordination.
+              Clear answers regarding our appointments, home blood sample visits, and insurance help.
             </p>
           </div>
 
@@ -468,20 +468,20 @@ export function HomeClientWrapper({
           >
             <span className={styles.visualPill} style={{ marginBottom: '1rem' }}>
               <Sparkles size={14} color="#c5a059" />
-              Private Sanctuary Sessions
+              Private &amp; Comfortable Clinic
             </span>
             <h2 className={styles.vipTitle}>Experience Healthcare as It Should Be.</h2>
             <p className={styles.vipSub}>
-              Reserve an unhurried, private consultation with our leading specialists in Clifton, Karachi and Gulberg, Lahore. Same-day urgent consultations protected.
+              Book an unhurried, comfortable appointment with our doctors in Clifton, Karachi or Gulberg, Lahore today.
             </p>
             <div className={styles.vipActions}>
               <Link href="/booking" className="btn-gold">
                 <Calendar size={17} />
-                <span>Reserve Appointment Online</span>
+                <span>Book Appointment Online</span>
               </Link>
               <a href="tel:+922135879920" className="btn-secondary" style={{ background: 'transparent', color: '#ffffff', borderColor: 'rgba(255,255,255,0.3)' }}>
                 <Phone size={16} />
-                <span>Call Concierge: (021) 3587-9920</span>
+                <span>Call Us: (021) 3587-9920</span>
               </a>
             </div>
           </motion.div>
