@@ -420,10 +420,10 @@ export function BookingClientWrapper() {
                         href={`https://wa.me/923008899920?text=Hello%20Aura%20Sanctuary,%20I%20just%20reserved%20a%20consultation%20for%20${encodeURIComponent(deptNames[selectedDept])}%20on%20${encodeURIComponent(selectedDay.fullDateString)}%20at%20${encodeURIComponent(selectedSlot)}.%20Please%20confirm%20my%20details.`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn-primary"
-                        style={{ background: '#25d366', justifyContent: 'center' }}
+                        className="btn-whatsapp"
+                        style={{ width: '100%', justifyContent: 'center' }}
                       >
-                        <MessageCircle size={16} />
+                        <MessageCircle size={16} color="#ffffff" />
                         <span>Open WhatsApp Care Desk</span>
                       </a>
 

@@ -202,10 +202,10 @@ export function SymptomTriageNavigator() {
               href={`https://wa.me/923008899920?text=Hi%20Aura%20Sanctuary,%20I%20used%20your%20triage%20navigator%20for%20${encodeURIComponent(selectedTriage.symptom)}.%20I%20would%20like%20to%20consult%20with%20${encodeURIComponent(selectedTriage.specialistName)}.`}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-secondary"
-              style={{ width: '100%', justifyContent: 'center', background: 'transparent', color: '#ffffff', borderColor: 'rgba(255,255,255,0.2)' }}
+              className="btn-whatsapp-outline"
+              style={{ width: '100%', justifyContent: 'center' }}
             >
-              <MessageCircle size={16} color="#22c55e" />
+              <MessageCircle size={17} color="#25d366" />
               <span>Inquire via WhatsApp Desk</span>
             </a>
           </div>

@@ -155,7 +155,7 @@ button {
 
 .btn-secondary {
   background: var(--surface-white);
-  color: var(--text-heading) !important;
+  color: var(--text-heading);
   border: 1px solid var(--border-subtle);
   padding: 0.875rem 1.85rem;
   border-radius: 9999px;
@@ -173,8 +173,23 @@ button {
 .btn-secondary:hover {
   background: var(--bg-subtle);
   border-color: var(--accent-gold);
-  color: var(--primary) !important;
+  color: var(--primary);
   transform: translateY(-2px);
+}
+
+/* Secondary Button on Dark Surfaces (e.g. VIP Banner, Hero Frames) */
+.vipActions .btn-secondary,
+.vipActions a.btn-secondary {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.vipActions .btn-secondary:hover,
+.vipActions a.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 
 .btn-gold {
@@ -196,6 +211,67 @@ button {
 .btn-gold:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 30px -2px rgba(197, 160, 89, 0.45);
+}
+
+/* Dedicated High-Contrast WhatsApp CTA Buttons */
+.btn-whatsapp {
+  background: #25d366 !important;
+  color: #ffffff !important;
+  border: 1px solid #22c55e !important;
+  padding: 0.875rem 1.85rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+  transition: all 0.25s ease;
+  text-decoration: none !important;
+}
+
+.btn-whatsapp:hover {
+  background: #1eb956 !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(37, 211, 102, 0.45);
+}
+
+.btn-whatsapp span,
+.btn-whatsapp svg {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+.btn-whatsapp-outline {
+  background: rgba(37, 211, 102, 0.14) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(37, 211, 102, 0.5) !important;
+  padding: 0.875rem 1.85rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  white-space: nowrap;
+  transition: all 0.25s ease;
+  text-decoration: none !important;
+}
+
+.btn-whatsapp-outline:hover {
+  background: #25d366 !important;
+  color: #ffffff !important;
+  border-color: #25d366 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.35);
+}
+
+.btn-whatsapp-outline span {
+  color: #ffffff !important;
 }
 
 /* Top Announcement Bar */

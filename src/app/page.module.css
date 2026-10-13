@@ -112,6 +112,14 @@
   gap: 1rem;
 }
 
+.visualInner h3 {
+  color: #ffffff !important;
+}
+
+.visualInner p {
+  color: #b5cdc6 !important;
+}
+
 .visualPill {
   display: inline-flex;
   align-items: center;

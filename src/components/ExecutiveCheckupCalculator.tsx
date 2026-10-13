@@ -188,10 +188,10 @@ export function ExecutiveCheckupCalculator() {
               href={`https://wa.me/923008899920?text=${whatsappMessage}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-secondary"
-              style={{ width: '100%', justifyContent: 'center', background: 'transparent', color: '#ffffff', borderColor: 'rgba(255,255,255,0.25)' }}
+              className="btn-whatsapp-outline"
+              style={{ width: '100%', justifyContent: 'center' }}
             >
-              <MessageCircle size={16} color="#22c55e" />
+              <MessageCircle size={17} color="#25d366" />
               <span>Inquire via WhatsApp Desk</span>
             </a>
           </div>
